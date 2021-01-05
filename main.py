@@ -19,6 +19,7 @@ class Window(QMainWindow):
         self.con.close()
 
 
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = Window()
